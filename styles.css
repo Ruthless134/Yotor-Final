@@ -1,20 +1,19 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 body {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  background: linear-gradient(60deg, rgb(60, 22, 60), rgb(212, 15, 212));
-
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  font-family: Arial, "Times New Roman", Times, serif;
-  overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/aa462558-0106-4268-9864-d34a4f35531f);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .biggercontainer.swipernav a {
   align-items: center;
